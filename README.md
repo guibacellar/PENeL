@@ -36,8 +36,9 @@ Public method name inside *class*
 ### --template
 Template Type
 
-   * V1 - Classic. No Obfuscation, No Security. Clear Text Only
-   
+   * V1 - Classic. Classic Direct Public ParameterLess Method Execution
+   * V2 - Reflection. Public ParameterLess Method Execution by Reflection
+      
 ### --destination
 Destination file Path (Relative or Absolute)
 
