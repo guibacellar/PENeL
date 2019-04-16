@@ -4,8 +4,41 @@ Program that prepares a .NET DLL Library to run embedded in Powershell Script
 **Created By:** Guilherme Bacellar Moralez (Th3 0bservator)
 https://twitter.com/th3_0bservator
 
-# Disclaimer
+## Disclaimer
 **This code is created and maintened only for a research proposal. Please do not use for malicious proposes.**
 
-# Objectives
+## Objectives
 Create a program that prepares every .NET DLL Library and creates a PowerShell Script with that DLL embedded for delivery.
+
+# Features
+
+   * .NET Core and Classic .NET Library Supported
+   * Exposes Public Method's Only
+   * TBD
+
+# Parameters
+
+* --source
+* --class
+* --method
+* --template
+* --destination
+
+### --source
+Source file Path (Relative or Absolute)
+
+### --class
+Public class name (full qualified namespace) to load
+
+### --method
+Public method name inside *class* 
+
+### --template
+Template Type
+
+   * V1 - Classic. No Obfuscation, No Security. Clear Text Only
+   
+### --destination
+Destination file Path (Relative or Absolute)
+
+
